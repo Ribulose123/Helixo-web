@@ -1,0 +1,18 @@
+  <header class="header">
+            <img src="logo.png" alt="" class="logo">
+            <nav class="navbar">
+                <a href="#" class="home">Home</a>
+                <a href="#">Room & Suite</a>
+                <a href="#">News</a>
+                <a href="#">Gallary</a>
+                <a href="#">Contacts</a>
+                <a href="#" class="tel">Book now</a>
+            </nav>
+        </header>
+
+          <div class="alao">
+            <img src="bars2.jpeg" alt="" class="bar">
+        </div>
+        <div class="resturant">
+            <img src="bars.jpeg" alt="" class="rest">
+        </div>

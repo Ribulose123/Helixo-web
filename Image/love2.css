@@ -1,0 +1,764 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ofure{
+    background-image: url(pexel2.jpg);
+       background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   /*  padding: 25px 80px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 4rem;
+    padding-left: 5rem;
+}
+
+ a.home{
+    text-decoration: underline;
+    color: wheat;
+}
+
+.ofure .tel{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: -80rem;
+    padding-top:2rem ;
+}
+
+.tel i{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.king p{
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    color: rgb(19, 18, 18);
+}
+
+.eye{
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.yes{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifA;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.jolly{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+span{
+    color: wheat;
+}
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+}
+
+.book{
+    margin-top: -2.5rem;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(19, 18, 18);
+    width: 70%;
+    height: 15vh;
+}
+
+.book .box{
+    text-align: center;
+    color: wheat;
+}
+
+.box input{
+    color: wheat;
+    background: black;
+    width: 100%;
+    height: 5vh;
+    padding: 2px;
+    margin-left: 2rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.search .place{
+    width: 80%;
+    height: 5vh;
+    background: black;
+    color: wheat;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+.tega{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background: white;
+    margin-top: 5rem;
+}
+
+.sesem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-left: 1rem;
+}
+
+.like{
+    padding-left: 2rem;
+    width: 80%;
+    height: 50vh;
+}
+
+.like h2{
+    color: rgb(129, 87, 7);
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.like p{
+    color: black;
+    font-size:1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.like i{
+    padding-left: 5rem;
+    margin-top: 3rem;
+}
+
+.fa-arrow-left{
+    padding-left: 2rem;
+    margin-left: 8rem;
+}
+
+
+.par{
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.here{
+    line-height: 1.3rem;
+}
+
+.bar{
+    width: 80%;
+    height: 50vh;
+    background: url(food4.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.bar .resturant{
+    text-align: center;
+    padding-top: 6rem;
+    color: white;
+    font-size:3rem ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.bar2{
+    width: 80%;
+    height: 50vh;
+    background: url(trt.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.bar2 .hr{
+    text-align: center;
+    padding-top: 6rem;
+    color: wheat;
+    font-size:3rem ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+
+.key{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.lol{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left:20rem;
+}
+
+.wifi{
+    width: 30%;
+    height: 50vh;
+    margin-right: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+ .lol i{
+    font-size: 5rem;
+ }
+
+ .wifi i{
+    color:wheat;
+    padding-bottom: 3rem;
+ }
+
+ .wifi h2{
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+ }
+
+ .wifi p{
+    line-height: 1.3rem;
+ }
+
+ .concierege{
+    width: 30%;
+    height: 50vh;
+   /*  background: rgb(180, 180, 180); */
+    margin-right: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+ }
+
+ .concierege i{
+    color:gainsboro;
+    padding-bottom: 3rem;
+ }
+
+ .concierege h2{
+    color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    padding-bottom: 1rem;
+ }
+
+ .concierege p{
+    line-height: 1.3rem;
+ }
+
+ .pool{
+    width: 35%;
+    height: 50vh;
+   /*  background: rgb(180, 180, 180); */
+    margin-right: 5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+ }
+
+ .pool i{
+    color:gainsboro;
+    padding-bottom: 3rem;
+ }
+
+ .pool h2{
+    color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 1rem;
+ }
+ .pool  p{
+    line-height: 1.3rem;
+ }
+
+
+
+ .rooms2{
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+ }
+
+
+ .single{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-left: 2rem;
+ }
+
+ /* .single .press{
+    height: 50vh;
+    background: red;
+    align-items: center;
+    text-align: center;
+ }
+
+ .press img{
+   width: 50%;
+   height: 40vh;
+ } */
+
+
+ .press2 img{
+    width: 90%;
+    height: 70vh;
+    border-radius: 10px;
+ }
+
+ .press2 h4{
+    background: black;
+    color: wheat;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-top: -2rem;
+    position: relative;
+    margin-left: 17rem;
+ }
+
+ .press2 h2{
+    text-align: center;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    color: wheat;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .press2  p{
+    list-style: 1.3rem;
+    font-size: 1.2rem;
+ }
+
+ .press3 img{
+    width: 90%;
+    height: 70vh;
+    border-radius: 10px;
+ }
+
+ .press3 h4{
+    background: black;
+    color: wheat;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-top: -2rem;
+    position: relative;
+    margin-left: 17rem;
+ }
+
+ .press3 h2{
+    text-align: center;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    color: wheat;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .press3 p{
+    list-style: 1.3rem;
+    font-size: 1.2rem;
+ }
+
+ .press4 img{
+    width: 90%;
+    height: 70vh;
+    border-radius: 10px;
+ }
+
+ .press4 h4{
+    background: black;
+    color: wheat;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-top: -2rem;
+    position: relative;
+    margin-left: 17rem;
+ }
+
+ .press4 h2{
+    text-align: center;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    color: wheat;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .press4 p{
+    list-style: 1.3rem;
+    font-size: 1.2rem;
+ }
+ 
+
+
+ .food{
+    width: 100%;
+    height: 100vh;
+    margin-top: 3rem;
+ }
+
+ .spag{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+ }
+
+ .meat{
+    width: 30%;
+    height: 70%;
+    margin-right: 4rem;
+    margin-top: 1rem;
+ }
+
+ .meat h2{
+    color: wheat;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ .meat p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+
+ .main1{
+    background: url(food2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+    margin-top: 5rem;
+    text-align: center;
+ }
+
+ .main1 h2{
+    color: white;
+    padding-top:2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .main1 p{
+    color: white;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+ }
+
+ .main1 .nod{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: wheat;
+    padding: 2rem;
+ }
+
+ .nod h3{
+    font-size: 1.5rem;
+ }
+
+  .lone{
+    color: orange;
+    text-decoration: underline;
+ }
+
+
+ .congo{
+    margin-right: 17rem;
+    margin-top: -2rem;
+ }
+
+ .congo .naria{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .congo h3{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: -1.5rem;
+ }
+
+ .congo .this{
+    font-size: 1rem;
+ }
+
+ .bongo{
+    margin-top: -8rem;
+    margin-left: 20rem;
+    padding-top: 0.2rem;
+    padding-left: 2rem;
+ }
+
+ .bongo .naria{
+   font-size: 1rem;
+   padding-bottom: 1rem;
+   font-weight: 200;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bongo h3{
+   color: white;
+   font-size: 1.5rem;
+   padding-top: -1.5rem;
+}
+
+.bongo .this{
+   font-size: 1rem;
+}
+  .test{
+   width: 100%;
+   height: 100vh;
+   background: white;
+   display: flex;
+   flex-direction: row;
+   margin-top: 2rem;
+  }
+
+
+  .emt{
+   height: 50%;
+   width: 30%;
+   margin-top: 3rem;
+   margin-left: 2rem;
+   padding-left: 1rem;
+
+  }
+
+  .emt h2{
+   color: wheat;
+   font-size: 3rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+  }
+
+  .emt i{
+   margin-left: 4rem;
+   left: 7.5rem;
+   top: 3.5rem;
+   position: relative;
+  }
+
+  .test .but{
+   width: 80%;
+   height: 70%;
+   background: white;
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   padding-left: 2rem;
+   margin-left: 2rem;
+   margin-top: 3rem;
+  }
+
+   .qurt{
+   width: 45%;
+   height: 80%;
+   padding-left: 1rem;
+   padding-top: 1rem;
+   margin-top: 5rem;
+   background: white;
+   box-shadow: 10px 20px white;
+  }
+
+  .qurt i{
+   font-size:3rem;
+   margin-top: 1rem;
+   color: wheat;
+  }
+
+.qurt p{
+   font-size: 1rem;
+   line-height: 1.3rem;
+}
+
+.lovely{
+   width: 80%;
+   height: 8vh;
+   display: flex;
+   flex-direction: row;
+   margin-top: 3rem;
+   padding-left: 1rem;
+   padding-top: 1rem;
+}
+
+.lovely img{
+   width: 20%;
+   height: 7vh;
+   border-radius: 30px;
+   margin-top: -0.8rem;
+}
+
+.lovely .seun{
+   padding-left: 1rem;
+   margin-top: -0.4rem;
+}
+
+.seun h3{
+   font-size: 1rem;
+   font-weight: 700;
+   font-style: normal;
+}
+
+.seun p{
+   font-size: 0.8rem;
+   font-weight: lighter;
+   color: rgb(22, 22, 22);
+}
+
+
+
+.but .qurt2{
+   width: 100%;
+   height: 100%;
+   padding-left: 1rem;
+   padding-top: 1rem;
+   margin-left: 28rem;
+   margin-top: -16rem;
+   
+  }
+
+  .lovely1{
+   width: 80%;
+   height: 8vh;
+   display: flex;
+   flex-direction: row;
+  margin-top: 3rem ;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-top: -1rem;
+  }
+
+   .lovely1 img{
+   width: 20%;
+   height: 6vh;
+   border-radius: 50px;
+   margin-top: 0.5rem;
+}
+
+
+  .lovely1 .seun1{
+   padding-left: 1rem;
+   margin-top: 0.5rem;
+}
+
+.seun1 h3{
+   font-size: 1.2rem;
+   font-weight: 700;
+   font-style: normal;
+}
+
+.seun1 p{
+   font-size: 0.8rem;
+   font-weight: lighter;
+   color: rgb(22, 22, 22);
+}
+
+
